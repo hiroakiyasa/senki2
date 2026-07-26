@@ -1,0 +1,39 @@
+name: Clean temporary Volume 23 publishing branch
+
+on:
+  push:
+    branches:
+      - agent/v23-complete-20260726
+    paths:
+      - .github/workflows/v23-cleanup.yml
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-clean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout published main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Revalidate published Volume 23
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq 177 184); do
+            mapfile -t matches < <(find scripts/v23 -maxdepth 1 -type f -name "ep${n}_*.md" -print)
+            test "${#matches[@]}" -eq 1
+            f="${matches[0]}"
+            test "$(grep -Ec '^## P([1-9]|1[0-2])([ （]|$)' "$f")" -eq 12
+            test "$(grep -Ec '^### c[0-9][0-9]' "$f")" -eq 43
+            test "$(grep -c '^生成:' "$f")" -eq 43
+          done
+          find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' | grep -q .
+
+      - name: Delete temporary branch
+        shell: bash
+        run: git push origin --delete agent/v23-complete-20260726
