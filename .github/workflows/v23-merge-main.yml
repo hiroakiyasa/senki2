@@ -1,0 +1,100 @@
+name: Merge validated SENKI Volume 23 to main
+
+on:
+  push:
+    branches:
+      - agent/v23-complete-20260726
+    paths:
+      - .github/workflows/v23-merge-main.yml
+      - scripts/v23/**
+      - docs/*第23巻*城主の食卓*完成稿*.md
+
+permissions:
+  contents: write
+
+concurrency:
+  group: senki-volume-23-main-merge
+  cancel-in-progress: false
+
+jobs:
+  merge-volume-23:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch prepared branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin agent/v23-complete-20260726
+
+      - name: Adopt only missing or incomplete Volume 23 files
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_ref='origin/agent/v23-complete-20260726'
+          test "$(git ls-tree -r --name-only "$source_ref" | grep -Ec '^scripts/v23/ep(177|178|179|180|181|182|183|184)_.*\.md$')" -eq 8
+          mkdir -p scripts/v23
+          for n in $(seq 177 184); do
+            mapfile -t current < <(find scripts/v23 -maxdepth 1 -type f -name "ep${n}_*.md" -print 2>/dev/null || true)
+            keep=0
+            if [ "${#current[@]}" -eq 1 ]; then
+              f="${current[0]}"
+              pages=$(grep -Ec '^## P([1-9]|1[0-2])([ （]|$)' "$f" || true)
+              panels=$(grep -Ec '^### c[0-9][0-9]' "$f" || true)
+              prompts=$(grep -c '^生成:' "$f" || true)
+              if [ "$pages" -eq 12 ] && [ "$panels" -eq 43 ] && [ "$prompts" -eq 43 ]; then
+                keep=1
+              fi
+            fi
+            if [ "$keep" -eq 0 ]; then
+              rm -f scripts/v23/ep${n}_*.md
+              src=$(git ls-tree -r --name-only "$source_ref" | grep -E "^scripts/v23/ep${n}_.*\.md$" | head -n1)
+              git checkout "$source_ref" -- "$src"
+            fi
+          done
+          if [ ! -f scripts/v23/README.md ]; then
+            git checkout "$source_ref" -- scripts/v23/README.md
+          fi
+          mapfile -t current_docs < <(find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' -print 2>/dev/null || true)
+          if [ "${#current_docs[@]}" -eq 0 ]; then
+            src_doc=$(git ls-tree -r --name-only "$source_ref" | grep -E '^docs/.*第23巻.*城主の食卓.*完成稿.*\.md$' | head -n1)
+            test -n "$src_doc"
+            git checkout "$source_ref" -- "$src_doc"
+          fi
+
+      - name: Validate the integrated main worktree
+        shell: bash
+        run: |
+          set -euo pipefail
+          for n in $(seq 177 184); do
+            mapfile -t matches < <(find scripts/v23 -maxdepth 1 -type f -name "ep${n}_*.md" -print)
+            test "${#matches[@]}" -eq 1
+            f="${matches[0]}"
+            test "$(grep -Ec '^## P([1-9]|1[0-2])([ （]|$)' "$f")" -eq 12
+            test "$(grep -Ec '^### c[0-9][0-9]' "$f")" -eq 43
+            test "$(grep -c '^生成:' "$f")" -eq 43
+            grep -q '第.*話終了時の台帳' "$f"
+            grep -q 'manga-spread 運用メモ' "$f"
+          done
+          find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' | grep -q .
+          git diff --check
+
+      - name: Commit and push main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'OpenAI Codex'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/v23
+          find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' -print0 | xargs -0 git add --
+          if git diff --cached --quiet; then
+            echo 'main already contains a complete Volume 23.'
+            exit 0
+          fi
+          git commit -m "第23巻『城主の食卓』全8話を完成"
+          git push origin HEAD:main
