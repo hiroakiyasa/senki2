@@ -1,0 +1,68 @@
+name: Import SENKI Volume 23 complete scripts
+
+on:
+  push:
+    branches:
+      - agent/v23-complete-20260726
+    paths:
+      - .github/workflows/v23-import.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import-volume-23:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+        with:
+          ref: agent/v23-complete-20260726
+          fetch-depth: 0
+
+      - name: Download and verify prepared payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='https://filebin.net/senki-v23-20260726-hy123'
+          curl --retry 4 --retry-delay 2 -fsSL "$base/v23_payload.tar.gz" -o /tmp/v23_payload.tar.gz
+          curl --retry 4 --retry-delay 2 -fsSL "$base/v23_payload.tar.gz.sha256" -o /tmp/v23_payload.tar.gz.sha256
+          (cd /tmp && sha256sum -c v23_payload.tar.gz.sha256)
+          tar -xzf /tmp/v23_payload.tar.gz -C "$GITHUB_WORKSPACE"
+          rm -f "$GITHUB_WORKSPACE/V23_PAYLOAD_MANIFEST.md"
+
+      - name: Validate all eight manga-spread scripts
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f scripts/v23/README.md
+          for n in $(seq 177 184); do
+            mapfile -t matches < <(find scripts/v23 -maxdepth 1 -type f -name "ep${n}_*.md" -print)
+            test "${#matches[@]}" -eq 1
+            file="${matches[0]}"
+            test "$(grep -Ec '^## P([1-9]|1[0-2])([ （]|$)' "$file")" -eq 12
+            test "$(grep -Ec '^### c[0-9][0-9]' "$file")" -eq 43
+            test "$(grep -c '^生成:' "$file")" -eq 43
+            grep -q '第.*話終了時の台帳' "$file"
+            grep -q 'manga-spread 運用メモ' "$file"
+          done
+          mapfile -t volume_docs < <(find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' -print)
+          test "${#volume_docs[@]}" -ge 1
+          git diff --check
+
+      - name: Commit prepared volume and remove importer
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/v23-import.yml
+          git config user.name 'OpenAI Codex'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/v23
+          find docs -maxdepth 1 -type f -name '*第23巻*城主の食卓*完成稿*.md' -print0 | xargs -0 git add --
+          git add -u .github/workflows/v23-import.yml
+          if git diff --cached --quiet; then
+            echo 'Volume 23 is already complete on this branch.'
+            exit 0
+          fi
+          git commit -m "第23巻『城主の食卓』全8話を完成"
+          git push origin HEAD:agent/v23-complete-20260726
