@@ -1,0 +1,1287 @@
+{
+  "schema_version": 1,
+  "project": "SENKI",
+  "repository": "hiroakiyasa/senki2",
+  "generated_at": "2026-07-26T00:00:00+09:00",
+  "png_count": 99,
+  "total_bytes": 255104556,
+  "characters": [
+    {
+      "id": "ayame",
+      "image_count": 1,
+      "images": [
+        "images/ayame/v01.png"
+      ]
+    },
+    {
+      "id": "fujino",
+      "image_count": 3,
+      "images": [
+        "images/fujino/v01.png",
+        "images/fujino/v02.png",
+        "images/fujino/v03.png"
+      ]
+    },
+    {
+      "id": "genroku",
+      "image_count": 1,
+      "images": [
+        "images/genroku/v01.png"
+      ]
+    },
+    {
+      "id": "genta",
+      "image_count": 5,
+      "images": [
+        "images/genta/v01.png",
+        "images/genta/v02.png",
+        "images/genta/v03.png",
+        "images/genta/v04.png",
+        "images/genta/v05.png"
+      ]
+    },
+    {
+      "id": "ginchiyo",
+      "image_count": 1,
+      "images": [
+        "images/ginchiyo/v01.png"
+      ]
+    },
+    {
+      "id": "gracia",
+      "image_count": 1,
+      "images": [
+        "images/gracia/v01.png"
+      ]
+    },
+    {
+      "id": "hajun",
+      "image_count": 1,
+      "images": [
+        "images/hajun/v01.png"
+      ]
+    },
+    {
+      "id": "hanbei",
+      "image_count": 1,
+      "images": [
+        "images/hanbei/v01.png"
+      ]
+    },
+    {
+      "id": "hanjun",
+      "image_count": 1,
+      "images": [
+        "images/hanjun/v01.png"
+      ]
+    },
+    {
+      "id": "hideaki",
+      "image_count": 1,
+      "images": [
+        "images/hideaki/v01.png"
+      ]
+    },
+    {
+      "id": "hideyoshi",
+      "image_count": 1,
+      "images": [
+        "images/hideyoshi/v01.png"
+      ]
+    },
+    {
+      "id": "iehisashimazu",
+      "image_count": 1,
+      "images": [
+        "images/iehisashimazu/v01.png"
+      ]
+    },
+    {
+      "id": "ieyasu",
+      "image_count": 1,
+      "images": [
+        "images/ieyasu/v01.png"
+      ]
+    },
+    {
+      "id": "inoue",
+      "image_count": 1,
+      "images": [
+        "images/inoue/v01.png"
+      ]
+    },
+    {
+      "id": "jinroku",
+      "image_count": 4,
+      "images": [
+        "images/jinroku/v01.png",
+        "images/jinroku/v02.png",
+        "images/jinroku/v03.png",
+        "images/jinroku/v04.png"
+      ]
+    },
+    {
+      "id": "kahee",
+      "image_count": 1,
+      "images": [
+        "images/kahee/v01.png"
+      ]
+    },
+    {
+      "id": "kanbei",
+      "image_count": 1,
+      "images": [
+        "images/kanbei/v01.png"
+      ]
+    },
+    {
+      "id": "karasumaru",
+      "image_count": 1,
+      "images": [
+        "images/karasumaru/v01.png"
+      ]
+    },
+    {
+      "id": "katsunaga",
+      "image_count": 1,
+      "images": [
+        "images/katsunaga/v01.png"
+      ]
+    },
+    {
+      "id": "katsushige",
+      "image_count": 1,
+      "images": [
+        "images/katsushige/v01.png"
+      ]
+    },
+    {
+      "id": "kaya",
+      "image_count": 5,
+      "images": [
+        "images/kaya/v01.png",
+        "images/kaya/v02.png",
+        "images/kaya/v03.png",
+        "images/kaya/v04.png",
+        "images/kaya/v05.png"
+      ]
+    },
+    {
+      "id": "kiyomasa",
+      "image_count": 1,
+      "images": [
+        "images/kiyomasa/v01.png"
+      ]
+    },
+    {
+      "id": "kohei",
+      "image_count": 1,
+      "images": [
+        "images/kohei/v01.png"
+      ]
+    },
+    {
+      "id": "kuriyama",
+      "image_count": 1,
+      "images": [
+        "images/kuriyama/v01.png"
+      ]
+    },
+    {
+      "id": "masamune",
+      "image_count": 1,
+      "images": [
+        "images/masamune/v01.png"
+      ]
+    },
+    {
+      "id": "masanori",
+      "image_count": 1,
+      "images": [
+        "images/masanori/v01.png"
+      ]
+    },
+    {
+      "id": "masayuki",
+      "image_count": 1,
+      "images": [
+        "images/masayuki/v01.png"
+      ]
+    },
+    {
+      "id": "matabei",
+      "image_count": 12,
+      "images": [
+        "images/matabei/01_age16_village.png",
+        "images/matabei/02_age18_21_young_retainer.png",
+        "images/matabei/03_age22_29_rising_warrior.png",
+        "images/matabei/03_age22_29_unit_leader.png",
+        "images/matabei/04_age30_39_samurai_commander.png",
+        "images/matabei/04_age30_39_veteran.png",
+        "images/matabei/05_age40_sekigahara.png",
+        "images/matabei/06_age41_46_tenkoku_lord.png",
+        "images/matabei/06_age47_54_ronin.png",
+        "images/matabei/07_age47_54_ronin_v2.png",
+        "images/matabei/07_age55_osaka.png",
+        "images/matabei/08_age55_osaka.png"
+      ]
+    },
+    {
+      "id": "matakichi",
+      "image_count": 1,
+      "images": [
+        "images/matakichi/v01.png"
+      ]
+    },
+    {
+      "id": "mitsunari",
+      "image_count": 1,
+      "images": [
+        "images/mitsunari/v01.png"
+      ]
+    },
+    {
+      "id": "mori",
+      "image_count": 1,
+      "images": [
+        "images/mori/v01.png"
+      ]
+    },
+    {
+      "id": "morichika",
+      "image_count": 1,
+      "images": [
+        "images/morichika/v01.png"
+      ]
+    },
+    {
+      "id": "motoharu",
+      "image_count": 1,
+      "images": [
+        "images/motoharu/v01.png"
+      ]
+    },
+    {
+      "id": "muneharu",
+      "image_count": 1,
+      "images": [
+        "images/muneharu/v01.png"
+      ]
+    },
+    {
+      "id": "muneshige",
+      "image_count": 1,
+      "images": [
+        "images/muneshige/v01.png"
+      ]
+    },
+    {
+      "id": "murashige",
+      "image_count": 1,
+      "images": [
+        "images/murashige/v01.png"
+      ]
+    },
+    {
+      "id": "nagamasa",
+      "image_count": 6,
+      "images": [
+        "images/nagamasa/v01.png",
+        "images/nagamasa/v02.png",
+        "images/nagamasa/v03.png",
+        "images/nagamasa/v04.png",
+        "images/nagamasa/v05.png",
+        "images/nagamasa/v06.png"
+      ]
+    },
+    {
+      "id": "naomasa",
+      "image_count": 1,
+      "images": [
+        "images/naomasa/v01.png"
+      ]
+    },
+    {
+      "id": "nobunaga",
+      "image_count": 1,
+      "images": [
+        "images/nobunaga/v01.png"
+      ]
+    },
+    {
+      "id": "nobushige",
+      "image_count": 1,
+      "images": [
+        "images/nobushige/v01.png"
+      ]
+    },
+    {
+      "id": "okiku",
+      "image_count": 1,
+      "images": [
+        "images/okiku/v01.png"
+      ]
+    },
+    {
+      "id": "otsune",
+      "image_count": 1,
+      "images": [
+        "images/otsune/v01.png"
+      ]
+    },
+    {
+      "id": "rikyu",
+      "image_count": 1,
+      "images": [
+        "images/rikyu/v01.png"
+      ]
+    },
+    {
+      "id": "sakon",
+      "image_count": 1,
+      "images": [
+        "images/sakon/v01.png"
+      ]
+    },
+    {
+      "id": "sayo",
+      "image_count": 1,
+      "images": [
+        "images/sayo/v01.png"
+      ]
+    },
+    {
+      "id": "seijuro",
+      "image_count": 4,
+      "images": [
+        "images/seijuro/v01.png",
+        "images/seijuro/v02.png",
+        "images/seijuro/v03.png",
+        "images/seijuro/v04.png"
+      ]
+    },
+    {
+      "id": "shichiro",
+      "image_count": 1,
+      "images": [
+        "images/shichiro/v01.png"
+      ]
+    },
+    {
+      "id": "shigefusa",
+      "image_count": 1,
+      "images": [
+        "images/shigefusa/v01.png"
+      ]
+    },
+    {
+      "id": "shinpachiro",
+      "image_count": 1,
+      "images": [
+        "images/shinpachiro/v01.png"
+      ]
+    },
+    {
+      "id": "shinzaemon",
+      "image_count": 1,
+      "images": [
+        "images/shinzaemon/v01.png"
+      ]
+    },
+    {
+      "id": "shokichi",
+      "image_count": 1,
+      "images": [
+        "images/shokichi/v01.png"
+      ]
+    },
+    {
+      "id": "sojuro",
+      "image_count": 1,
+      "images": [
+        "images/sojuro/v01.png"
+      ]
+    },
+    {
+      "id": "suzu",
+      "image_count": 1,
+      "images": [
+        "images/suzu/v01.png"
+      ]
+    },
+    {
+      "id": "tadakatsu",
+      "image_count": 1,
+      "images": [
+        "images/tadakatsu/v01.png"
+      ]
+    },
+    {
+      "id": "takakage",
+      "image_count": 1,
+      "images": [
+        "images/takakage/v01.png"
+      ]
+    },
+    {
+      "id": "takatora",
+      "image_count": 1,
+      "images": [
+        "images/takatora/v01.png"
+      ]
+    },
+    {
+      "id": "teruzumi",
+      "image_count": 1,
+      "images": [
+        "images/teruzumi/v01.png"
+      ]
+    },
+    {
+      "id": "towa",
+      "image_count": 1,
+      "images": [
+        "images/towa/v01.png"
+      ]
+    },
+    {
+      "id": "toyohisa",
+      "image_count": 1,
+      "images": [
+        "images/toyohisa/v01.png"
+      ]
+    },
+    {
+      "id": "xuehua",
+      "image_count": 1,
+      "images": [
+        "images/xuehua/v01.png"
+      ]
+    },
+    {
+      "id": "yakuro",
+      "image_count": 4,
+      "images": [
+        "images/yakuro/v01.png",
+        "images/yakuro/v02.png",
+        "images/yakuro/v03.png",
+        "images/yakuro/v04.png"
+      ]
+    },
+    {
+      "id": "yisunshin",
+      "image_count": 1,
+      "images": [
+        "images/yisunshin/v01.png"
+      ]
+    },
+    {
+      "id": "yoshihiro",
+      "image_count": 1,
+      "images": [
+        "images/yoshihiro/v01.png"
+      ]
+    },
+    {
+      "id": "yoshitsugu",
+      "image_count": 1,
+      "images": [
+        "images/yoshitsugu/v01.png"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "character_id": "ayame",
+      "file": "v01.png",
+      "relative_path": "images/ayame/v01.png",
+      "bytes": 2600064,
+      "sha256": "321532c67746a4b1e466e2c65f150cb96bcf012fddb720ea9dd1ec5251028fa7",
+      "identity_master": true
+    },
+    {
+      "character_id": "fujino",
+      "file": "v01.png",
+      "relative_path": "images/fujino/v01.png",
+      "bytes": 2643177,
+      "sha256": "2cef3490c358e0c38bf599f3c2f489cc8f67f8dc942668b13fd8db307321ba41",
+      "identity_master": true
+    },
+    {
+      "character_id": "fujino",
+      "file": "v02.png",
+      "relative_path": "images/fujino/v02.png",
+      "bytes": 2775140,
+      "sha256": "ecc1e580c61f7022bdea77f8de13ee22e7c6f11a8f17bae46bc4d3b10d2e03a5",
+      "identity_master": false
+    },
+    {
+      "character_id": "fujino",
+      "file": "v03.png",
+      "relative_path": "images/fujino/v03.png",
+      "bytes": 2638721,
+      "sha256": "3db1a770500e973316e1949ee894fb5eb617530bf5265b99d58cc5f5b6934483",
+      "identity_master": false
+    },
+    {
+      "character_id": "genroku",
+      "file": "v01.png",
+      "relative_path": "images/genroku/v01.png",
+      "bytes": 2788931,
+      "sha256": "7420b07f4eb9fd51d69f7122b5e43e46f031872dd5232de5c8920ba5921600da",
+      "identity_master": true
+    },
+    {
+      "character_id": "genta",
+      "file": "v01.png",
+      "relative_path": "images/genta/v01.png",
+      "bytes": 2415019,
+      "sha256": "16579eeb6b5a0c08c063eac0c560f59fb496ce9e2a9c99ccb2ea89a18853fdb3",
+      "identity_master": true
+    },
+    {
+      "character_id": "genta",
+      "file": "v02.png",
+      "relative_path": "images/genta/v02.png",
+      "bytes": 2312822,
+      "sha256": "63cc379ed72456b6809f49681f6c6f37c6cf1030acc6a46cc6bde1682f2c9d82",
+      "identity_master": false
+    },
+    {
+      "character_id": "genta",
+      "file": "v03.png",
+      "relative_path": "images/genta/v03.png",
+      "bytes": 2487597,
+      "sha256": "ddc22a35303a8e82a2b25970766f5d7e1dcafb4bdc26d8caea41c82a14a3ed23",
+      "identity_master": false
+    },
+    {
+      "character_id": "genta",
+      "file": "v04.png",
+      "relative_path": "images/genta/v04.png",
+      "bytes": 2384429,
+      "sha256": "04a25284b3e65b86555b0ff62895ba076373e25c7149f852becd0e0e419e3505",
+      "identity_master": false
+    },
+    {
+      "character_id": "genta",
+      "file": "v05.png",
+      "relative_path": "images/genta/v05.png",
+      "bytes": 2566410,
+      "sha256": "6bd162dacffc8261c322436fc198d94e5b35a069caa750ff2c90cccc4b9c6858",
+      "identity_master": false
+    },
+    {
+      "character_id": "ginchiyo",
+      "file": "v01.png",
+      "relative_path": "images/ginchiyo/v01.png",
+      "bytes": 2556759,
+      "sha256": "b9c2c7a16fcd7507a02c49f122237010bbf26690239dbb18e438e958fee0f6bb",
+      "identity_master": true
+    },
+    {
+      "character_id": "gracia",
+      "file": "v01.png",
+      "relative_path": "images/gracia/v01.png",
+      "bytes": 2727564,
+      "sha256": "1f3c43ee7797c6a1cfd91411f8609bb7ff379d19e57a4ee6314f2a455530840c",
+      "identity_master": true
+    },
+    {
+      "character_id": "hajun",
+      "file": "v01.png",
+      "relative_path": "images/hajun/v01.png",
+      "bytes": 2382339,
+      "sha256": "d7a1b01151a2a8fe68deee9e42205d19aeb664b162fb8967efa726b18ad11c74",
+      "identity_master": true
+    },
+    {
+      "character_id": "hanbei",
+      "file": "v01.png",
+      "relative_path": "images/hanbei/v01.png",
+      "bytes": 2944833,
+      "sha256": "7d205654797eb049dc38c76007f1b772cd57f38dbf7ea4fba3c9e13ffa4d553a",
+      "identity_master": true
+    },
+    {
+      "character_id": "hanjun",
+      "file": "v01.png",
+      "relative_path": "images/hanjun/v01.png",
+      "bytes": 2344927,
+      "sha256": "7fe1eb6c7404eb086b358774d8dcb6f84da589537bba651cc3fc8bc6c6e526ff",
+      "identity_master": true
+    },
+    {
+      "character_id": "hideaki",
+      "file": "v01.png",
+      "relative_path": "images/hideaki/v01.png",
+      "bytes": 2976038,
+      "sha256": "eec89681794822e0a25085231d8388db5381a8f647b22d484d1ba14e943b7c1d",
+      "identity_master": true
+    },
+    {
+      "character_id": "hideyoshi",
+      "file": "v01.png",
+      "relative_path": "images/hideyoshi/v01.png",
+      "bytes": 2629967,
+      "sha256": "6d394773032e76987dc867e8860b2e7872f0d2ba4aa52b24e10eaf25524787cf",
+      "identity_master": true
+    },
+    {
+      "character_id": "iehisashimazu",
+      "file": "v01.png",
+      "relative_path": "images/iehisashimazu/v01.png",
+      "bytes": 2363991,
+      "sha256": "317fb009cb59b895dafd0f551cdff8dfe166637f5bd562c933393866ec3bc3fa",
+      "identity_master": true
+    },
+    {
+      "character_id": "ieyasu",
+      "file": "v01.png",
+      "relative_path": "images/ieyasu/v01.png",
+      "bytes": 2373471,
+      "sha256": "e7b80534b93017001e7c33d07be14536555ba5c53b0792848505909a0962856d",
+      "identity_master": true
+    },
+    {
+      "character_id": "inoue",
+      "file": "v01.png",
+      "relative_path": "images/inoue/v01.png",
+      "bytes": 2362202,
+      "sha256": "80333bf457ffddf9a19b54aab1752a35a79a7c1644704ac47b0ad69f94eb64e0",
+      "identity_master": true
+    },
+    {
+      "character_id": "jinroku",
+      "file": "v01.png",
+      "relative_path": "images/jinroku/v01.png",
+      "bytes": 2179244,
+      "sha256": "242b6e0d026af0a6c83ca0ff80cea1aa92b15de951e882ecade5d0ad9dd9994f",
+      "identity_master": true
+    },
+    {
+      "character_id": "jinroku",
+      "file": "v02.png",
+      "relative_path": "images/jinroku/v02.png",
+      "bytes": 2426827,
+      "sha256": "8f6289f341565ce2c59b7e1c51ca42350bce0f6651061d346f387bd1f5a5d414",
+      "identity_master": false
+    },
+    {
+      "character_id": "jinroku",
+      "file": "v03.png",
+      "relative_path": "images/jinroku/v03.png",
+      "bytes": 2280972,
+      "sha256": "ed16c8bdfc044256abcf0f3fda89c8c7be91d0442f789a758008b7689a2ea2c9",
+      "identity_master": false
+    },
+    {
+      "character_id": "jinroku",
+      "file": "v04.png",
+      "relative_path": "images/jinroku/v04.png",
+      "bytes": 2329508,
+      "sha256": "84159763f3a712338e956148ba49b2f1893c542ebf7b83f9dc27a4a86a501406",
+      "identity_master": false
+    },
+    {
+      "character_id": "kahee",
+      "file": "v01.png",
+      "relative_path": "images/kahee/v01.png",
+      "bytes": 2693727,
+      "sha256": "1d4dd985be444907516ba4896657286aeceac5ec2d7661a51a44b99bd0427c2a",
+      "identity_master": true
+    },
+    {
+      "character_id": "kanbei",
+      "file": "v01.png",
+      "relative_path": "images/kanbei/v01.png",
+      "bytes": 2645089,
+      "sha256": "7a0b098250791e0dfd74093aaa8ccda3d930b85485e0f1d2195c866dd00d65fa",
+      "identity_master": true
+    },
+    {
+      "character_id": "karasumaru",
+      "file": "v01.png",
+      "relative_path": "images/karasumaru/v01.png",
+      "bytes": 2455588,
+      "sha256": "089a02340cf6196e17890c0e75432a1a897713df978f160a69206107d8092982",
+      "identity_master": true
+    },
+    {
+      "character_id": "katsunaga",
+      "file": "v01.png",
+      "relative_path": "images/katsunaga/v01.png",
+      "bytes": 2358321,
+      "sha256": "2d350be03dcf74a6b169810da87cf6137d41c85729a91f2d47c1aa2110f2cf3f",
+      "identity_master": true
+    },
+    {
+      "character_id": "katsushige",
+      "file": "v01.png",
+      "relative_path": "images/katsushige/v01.png",
+      "bytes": 2378749,
+      "sha256": "57ce1aa0b49eacc0e019c8307cfc6ea35110fd4973cde22301e7c7be06c73d1d",
+      "identity_master": true
+    },
+    {
+      "character_id": "kaya",
+      "file": "v01.png",
+      "relative_path": "images/kaya/v01.png",
+      "bytes": 2459239,
+      "sha256": "0702d0465b32ecc0116c1ac777f9c654f8a47352cbcdfd6f382428a8952adc87",
+      "identity_master": true
+    },
+    {
+      "character_id": "kaya",
+      "file": "v02.png",
+      "relative_path": "images/kaya/v02.png",
+      "bytes": 2554935,
+      "sha256": "107287da008a0d18eb9952b686d996312785531ba071c0fda25b2f874db4828f",
+      "identity_master": false
+    },
+    {
+      "character_id": "kaya",
+      "file": "v03.png",
+      "relative_path": "images/kaya/v03.png",
+      "bytes": 2528722,
+      "sha256": "d1807619a2c784962d2b83b3b754c02fd7c37b8ea9a832932b51f8d6d773f099",
+      "identity_master": false
+    },
+    {
+      "character_id": "kaya",
+      "file": "v04.png",
+      "relative_path": "images/kaya/v04.png",
+      "bytes": 2628026,
+      "sha256": "0c732d44e1401db2706185873f012b224aafc2779c2b1c22b88f87347584e40d",
+      "identity_master": false
+    },
+    {
+      "character_id": "kaya",
+      "file": "v05.png",
+      "relative_path": "images/kaya/v05.png",
+      "bytes": 2741867,
+      "sha256": "4ec6e8e2e8b822a8c2436753114ef261d86cf29c83ee9287a92725ed93b1c25c",
+      "identity_master": false
+    },
+    {
+      "character_id": "kiyomasa",
+      "file": "v01.png",
+      "relative_path": "images/kiyomasa/v01.png",
+      "bytes": 2431718,
+      "sha256": "dbd1260aad5e4d10f495ef31c104faebad889223e14b8bb205c681cf2176bc3f",
+      "identity_master": true
+    },
+    {
+      "character_id": "kohei",
+      "file": "v01.png",
+      "relative_path": "images/kohei/v01.png",
+      "bytes": 2403583,
+      "sha256": "94df4c68708d8b8f48fdadee770a28b79b9ad68b01e79a3a10b3255d44084245",
+      "identity_master": true
+    },
+    {
+      "character_id": "kuriyama",
+      "file": "v01.png",
+      "relative_path": "images/kuriyama/v01.png",
+      "bytes": 2399134,
+      "sha256": "220c3724d0b170526dca3d1b546edd6282ec75768764849f78b6769e6e38fcc3",
+      "identity_master": true
+    },
+    {
+      "character_id": "masamune",
+      "file": "v01.png",
+      "relative_path": "images/masamune/v01.png",
+      "bytes": 2379141,
+      "sha256": "47cac36463eff46ecb827e6b24ef251f6b598bd18c81655d930ad321267e79b5",
+      "identity_master": true
+    },
+    {
+      "character_id": "masanori",
+      "file": "v01.png",
+      "relative_path": "images/masanori/v01.png",
+      "bytes": 2430886,
+      "sha256": "fc4f135d53a3c35403e1cc25dfae9c012692d9df8f9ba97182eb7ea8f4a71a1c",
+      "identity_master": true
+    },
+    {
+      "character_id": "masayuki",
+      "file": "v01.png",
+      "relative_path": "images/masayuki/v01.png",
+      "bytes": 2652767,
+      "sha256": "bd11f03e9f62bc1c3c297ff5ad70792a7434aedcb805932f6801b12f3ef52339",
+      "identity_master": true
+    },
+    {
+      "character_id": "matabei",
+      "file": "01_age16_village.png",
+      "relative_path": "images/matabei/01_age16_village.png",
+      "bytes": 2723620,
+      "sha256": "4d4675ebc6dc536861217113880d0f59c0b620080df5bae89440261a675dfde4",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "02_age18_21_young_retainer.png",
+      "relative_path": "images/matabei/02_age18_21_young_retainer.png",
+      "bytes": 2771910,
+      "sha256": "2d87f399b5546ccb280b82ac53a2ec86f0f6abf7cf360df6b73d995b0c4fd1e5",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "03_age22_29_rising_warrior.png",
+      "relative_path": "images/matabei/03_age22_29_rising_warrior.png",
+      "bytes": 2668116,
+      "sha256": "b7d5bc6bcf9d502a13635feb274332fcb996622732be33555a06caa0952912eb",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "03_age22_29_unit_leader.png",
+      "relative_path": "images/matabei/03_age22_29_unit_leader.png",
+      "bytes": 2682507,
+      "sha256": "11feae078741a7fc6f56ec569585a323e90c4b2c7be1b09cb625363ba61e1d70",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "04_age30_39_samurai_commander.png",
+      "relative_path": "images/matabei/04_age30_39_samurai_commander.png",
+      "bytes": 2764584,
+      "sha256": "e358cd5f6baeb5504e3609379079f64650345de6deea4c5d2c66d636a6f29712",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "04_age30_39_veteran.png",
+      "relative_path": "images/matabei/04_age30_39_veteran.png",
+      "bytes": 2834356,
+      "sha256": "61e5fba80cda02e3d316c35d65f0857d6dd896926719246f00a19dd7561e55c1",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "05_age40_sekigahara.png",
+      "relative_path": "images/matabei/05_age40_sekigahara.png",
+      "bytes": 2846437,
+      "sha256": "8f0b31cd5f2f3a843b6d1dc4f3ce8d2d3fe2ba58a29a9329a63b47780166300d",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "06_age41_46_tenkoku_lord.png",
+      "relative_path": "images/matabei/06_age41_46_tenkoku_lord.png",
+      "bytes": 2944950,
+      "sha256": "b45adbbb7425e26ddd89b5f39f4d038ea16477ac16363085dcc42421f93063e1",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "06_age47_54_ronin.png",
+      "relative_path": "images/matabei/06_age47_54_ronin.png",
+      "bytes": 2884136,
+      "sha256": "b7a777e75e8d429dc0248ca42755c5d2134b36f6541f83aae1ae627f3ada984e",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "07_age47_54_ronin_v2.png",
+      "relative_path": "images/matabei/07_age47_54_ronin_v2.png",
+      "bytes": 2954023,
+      "sha256": "09547a35143fc3c250cacf5fac06d700cbe2118d1872b6f1d959ee879023e621",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "07_age55_osaka.png",
+      "relative_path": "images/matabei/07_age55_osaka.png",
+      "bytes": 3042218,
+      "sha256": "978fb7841200eb730b723d8996195bdae7f716149b35d67aa3ca3a15f7cbb7ec",
+      "identity_master": false
+    },
+    {
+      "character_id": "matabei",
+      "file": "08_age55_osaka.png",
+      "relative_path": "images/matabei/08_age55_osaka.png",
+      "bytes": 3066969,
+      "sha256": "a657d4f25f43a21a1a98642486166ef942b202ef9fb7aed5421fab9bbd483cec",
+      "identity_master": false
+    },
+    {
+      "character_id": "matakichi",
+      "file": "v01.png",
+      "relative_path": "images/matakichi/v01.png",
+      "bytes": 2322559,
+      "sha256": "7c30c64b872e619ac9ed76f357276860f86c1a80ecb47a3362e2a2879b9175d9",
+      "identity_master": true
+    },
+    {
+      "character_id": "mitsunari",
+      "file": "v01.png",
+      "relative_path": "images/mitsunari/v01.png",
+      "bytes": 2139371,
+      "sha256": "ad1cdb2b0c01b67a4589e95bb0707a6a3978a62e78861b7624eb39e94d29af44",
+      "identity_master": true
+    },
+    {
+      "character_id": "mori",
+      "file": "v01.png",
+      "relative_path": "images/mori/v01.png",
+      "bytes": 2443061,
+      "sha256": "d8376a44a8f04f1a7e06cced859ce822379f0811d6fbf62ac05200e3c7a21179",
+      "identity_master": true
+    },
+    {
+      "character_id": "morichika",
+      "file": "v01.png",
+      "relative_path": "images/morichika/v01.png",
+      "bytes": 2647872,
+      "sha256": "53bde34c26a14b352351bfa19dd67ce97f5cf608f59bf2a3c6a8f922fffa3122",
+      "identity_master": true
+    },
+    {
+      "character_id": "motoharu",
+      "file": "v01.png",
+      "relative_path": "images/motoharu/v01.png",
+      "bytes": 2739803,
+      "sha256": "6b75d72c1cbeee0b8c4b449408523dce84c669975c9093b1924159aa96789c27",
+      "identity_master": true
+    },
+    {
+      "character_id": "muneharu",
+      "file": "v01.png",
+      "relative_path": "images/muneharu/v01.png",
+      "bytes": 2775011,
+      "sha256": "bb4f6c7a16cd00ccaf0413f2e5b04fed6d82c67570d697cc44796ed4c8944660",
+      "identity_master": true
+    },
+    {
+      "character_id": "muneshige",
+      "file": "v01.png",
+      "relative_path": "images/muneshige/v01.png",
+      "bytes": 2575984,
+      "sha256": "c0a1c0445b62b590c8af913e3b805cfdc56af169435a0494b44532d91b9c0f1c",
+      "identity_master": true
+    },
+    {
+      "character_id": "murashige",
+      "file": "v01.png",
+      "relative_path": "images/murashige/v01.png",
+      "bytes": 2779089,
+      "sha256": "f4b90fd5218774704b82d77e2c6fb8a97c8541a562a4b22305dfac110dc34791",
+      "identity_master": true
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v01.png",
+      "relative_path": "images/nagamasa/v01.png",
+      "bytes": 2549989,
+      "sha256": "a9bd720c41f06f3ac6c45a09008855fc309d8a7d0881352d73c58970fdf4e640",
+      "identity_master": true
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v02.png",
+      "relative_path": "images/nagamasa/v02.png",
+      "bytes": 2756717,
+      "sha256": "f9f598c381532b380723a9676a746359e4613f184b855dfcde4e29eac693d60e",
+      "identity_master": false
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v03.png",
+      "relative_path": "images/nagamasa/v03.png",
+      "bytes": 2577995,
+      "sha256": "1844538d90872cf3070f22b562c817e4eb5fc1c68da738379e9eec51b4d0b053",
+      "identity_master": false
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v04.png",
+      "relative_path": "images/nagamasa/v04.png",
+      "bytes": 2741419,
+      "sha256": "0b031d199169701e1a81e358fb44ab90cc30d59b56453461fec73cadad77087b",
+      "identity_master": false
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v05.png",
+      "relative_path": "images/nagamasa/v05.png",
+      "bytes": 2985378,
+      "sha256": "3fc896c949160f1d95fe2c4edd5f06fb2b28e5a213323e4f0a8084ebe36ca7c9",
+      "identity_master": false
+    },
+    {
+      "character_id": "nagamasa",
+      "file": "v06.png",
+      "relative_path": "images/nagamasa/v06.png",
+      "bytes": 2838897,
+      "sha256": "0483bbbfdcff5d84c91a04ed8a4aa39856eb21fd4a9a570691d0ba06b1c45575",
+      "identity_master": false
+    },
+    {
+      "character_id": "naomasa",
+      "file": "v01.png",
+      "relative_path": "images/naomasa/v01.png",
+      "bytes": 2482561,
+      "sha256": "3ebd98b5f7cf4e5bd944128dcdccbb261d2ca03ac81da23b87cd469439cb3b86",
+      "identity_master": true
+    },
+    {
+      "character_id": "nobunaga",
+      "file": "v01.png",
+      "relative_path": "images/nobunaga/v01.png",
+      "bytes": 2479937,
+      "sha256": "6f4a6c5ac3cde6758b07eb462d4b11509c4ca5573bf0cc6f04e25440807e524d",
+      "identity_master": true
+    },
+    {
+      "character_id": "nobushige",
+      "file": "v01.png",
+      "relative_path": "images/nobushige/v01.png",
+      "bytes": 2527273,
+      "sha256": "9dbc52388213dd0411ca4ba68d32a93e8afd1ef089170227d59aa9b17f772f92",
+      "identity_master": true
+    },
+    {
+      "character_id": "okiku",
+      "file": "v01.png",
+      "relative_path": "images/okiku/v01.png",
+      "bytes": 2862531,
+      "sha256": "a630e2cee55d3142f10d46e4cc2abcaa1c05aee9c59f2dab0ac1ef2743d9f2b9",
+      "identity_master": true
+    },
+    {
+      "character_id": "otsune",
+      "file": "v01.png",
+      "relative_path": "images/otsune/v01.png",
+      "bytes": 2523088,
+      "sha256": "be1b358a6b2414d893b6d0f7286f50dbbcd1b6362ea162744508d3e1cbbdd147",
+      "identity_master": true
+    },
+    {
+      "character_id": "rikyu",
+      "file": "v01.png",
+      "relative_path": "images/rikyu/v01.png",
+      "bytes": 2358179,
+      "sha256": "77798b1d5f7520eb62022ebbb2016607d1af6703797e52608fb699572828f8c8",
+      "identity_master": true
+    },
+    {
+      "character_id": "sakon",
+      "file": "v01.png",
+      "relative_path": "images/sakon/v01.png",
+      "bytes": 2524097,
+      "sha256": "16a40cd706f6899ccda177ff1bc565c8ce32d608ecf244e04bfe3383ea072dd2",
+      "identity_master": true
+    },
+    {
+      "character_id": "sayo",
+      "file": "v01.png",
+      "relative_path": "images/sayo/v01.png",
+      "bytes": 2445216,
+      "sha256": "2a28895e4e37d4f4c2008d2f64bb4f56a7e6c2a19492b7b98bfb90be22de0059",
+      "identity_master": true
+    },
+    {
+      "character_id": "seijuro",
+      "file": "v01.png",
+      "relative_path": "images/seijuro/v01.png",
+      "bytes": 2405714,
+      "sha256": "6b44cc1903b300b7fda0e286d7cd29ec13bc349e97db465b5167840618eb4864",
+      "identity_master": true
+    },
+    {
+      "character_id": "seijuro",
+      "file": "v02.png",
+      "relative_path": "images/seijuro/v02.png",
+      "bytes": 2410456,
+      "sha256": "1b9eca9a2e0cdcc81501c6ee8f7aef2b096f1e5a22e4f4125f9b3baebc80d96e",
+      "identity_master": false
+    },
+    {
+      "character_id": "seijuro",
+      "file": "v03.png",
+      "relative_path": "images/seijuro/v03.png",
+      "bytes": 2782175,
+      "sha256": "69a1b86bb89ab38878878eabcce5f94dc1d7ece13da31e4b48b389175ac76c2b",
+      "identity_master": false
+    },
+    {
+      "character_id": "seijuro",
+      "file": "v04.png",
+      "relative_path": "images/seijuro/v04.png",
+      "bytes": 2622709,
+      "sha256": "2cfb27497a7a45e5b2f03ecb7b881040d83efe2c24529b2809230b7f7ba3cc2a",
+      "identity_master": false
+    },
+    {
+      "character_id": "shichiro",
+      "file": "v01.png",
+      "relative_path": "images/shichiro/v01.png",
+      "bytes": 2456647,
+      "sha256": "ed578d2d9ed9e5a359f1b7452a2d2c7846e8ffc69be8b31e242d2b5b989b14b4",
+      "identity_master": true
+    },
+    {
+      "character_id": "shigefusa",
+      "file": "v01.png",
+      "relative_path": "images/shigefusa/v01.png",
+      "bytes": 2803041,
+      "sha256": "d0a6ce469f40fda7901bbb0bb6a4e1345abab40a8277f92e7a1689b98143f53b",
+      "identity_master": true
+    },
+    {
+      "character_id": "shinpachiro",
+      "file": "v01.png",
+      "relative_path": "images/shinpachiro/v01.png",
+      "bytes": 2497170,
+      "sha256": "f5c07a530892543d15d4a7f380d4826f4c7c085582110247a4381967727602a8",
+      "identity_master": true
+    },
+    {
+      "character_id": "shinzaemon",
+      "file": "v01.png",
+      "relative_path": "images/shinzaemon/v01.png",
+      "bytes": 2703749,
+      "sha256": "015b75b8b236c2b31a3e38107e865eb88167622165e39c2dedad78c9af866cd6",
+      "identity_master": true
+    },
+    {
+      "character_id": "shokichi",
+      "file": "v01.png",
+      "relative_path": "images/shokichi/v01.png",
+      "bytes": 2339779,
+      "sha256": "45ea0e9971e05cdef6e04a3e1fc947b32e255ad7de10c527b577d06689b72e06",
+      "identity_master": true
+    },
+    {
+      "character_id": "sojuro",
+      "file": "v01.png",
+      "relative_path": "images/sojuro/v01.png",
+      "bytes": 2355683,
+      "sha256": "ad8629dae69e40fed68e9f16ecbeba93604dda995f40d006f05798caa2b88101",
+      "identity_master": true
+    },
+    {
+      "character_id": "suzu",
+      "file": "v01.png",
+      "relative_path": "images/suzu/v01.png",
+      "bytes": 2417239,
+      "sha256": "799b0bab5ccdf1dd8f52cb627d74e89ee1c58653ee3071413ddf35e1c9946560",
+      "identity_master": true
+    },
+    {
+      "character_id": "tadakatsu",
+      "file": "v01.png",
+      "relative_path": "images/tadakatsu/v01.png",
+      "bytes": 2672715,
+      "sha256": "4bbb5cbec2924ca88634c9f495698a1a4a1f141f9ad7848def40c3199b3059e5",
+      "identity_master": true
+    },
+    {
+      "character_id": "takakage",
+      "file": "v01.png",
+      "relative_path": "images/takakage/v01.png",
+      "bytes": 2385513,
+      "sha256": "1b977f2b6c7af051a5145d199c61677e84b5d3382b548decd07398dc6cf99199",
+      "identity_master": true
+    },
+    {
+      "character_id": "takatora",
+      "file": "v01.png",
+      "relative_path": "images/takatora/v01.png",
+      "bytes": 2380522,
+      "sha256": "626360cfa4e38ef36dbda8a94081a269bfc6f4f702e3f20eb7c6ec6bd3e8a499",
+      "identity_master": true
+    },
+    {
+      "character_id": "teruzumi",
+      "file": "v01.png",
+      "relative_path": "images/teruzumi/v01.png",
+      "bytes": 2202899,
+      "sha256": "ec4d408e8c53ced0b82fdd6cec91968d7d48c602e6e14106d661773115981ccf",
+      "identity_master": true
+    },
+    {
+      "character_id": "towa",
+      "file": "v01.png",
+      "relative_path": "images/towa/v01.png",
+      "bytes": 2738422,
+      "sha256": "330f89d8bd92f3d1e71b2e9f7fcad580f74707d20a7b4bc400697eeb5a835a08",
+      "identity_master": true
+    },
+    {
+      "character_id": "toyohisa",
+      "file": "v01.png",
+      "relative_path": "images/toyohisa/v01.png",
+      "bytes": 2515506,
+      "sha256": "6a30517081e8a9365fa881c2a427fca6b71aa71bc13f79c6fc53b46e34512e75",
+      "identity_master": true
+    },
+    {
+      "character_id": "xuehua",
+      "file": "v01.png",
+      "relative_path": "images/xuehua/v01.png",
+      "bytes": 2501462,
+      "sha256": "a63d289727a7873b8e44bb6578f7c914db0ba1c7588488a37708f37a00fe64fe",
+      "identity_master": true
+    },
+    {
+      "character_id": "yakuro",
+      "file": "v01.png",
+      "relative_path": "images/yakuro/v01.png",
+      "bytes": 2597978,
+      "sha256": "8200eee39b2d2acf8bb53ae97300314838a59de60e59b9c47e636be53b71019e",
+      "identity_master": true
+    },
+    {
+      "character_id": "yakuro",
+      "file": "v02.png",
+      "relative_path": "images/yakuro/v02.png",
+      "bytes": 2627103,
+      "sha256": "5c43965bfb551bde8e8c9ea3b24acd0597e849512eaa7581a770228d66f21e03",
+      "identity_master": false
+    },
+    {
+      "character_id": "yakuro",
+      "file": "v03.png",
+      "relative_path": "images/yakuro/v03.png",
+      "bytes": 2437222,
+      "sha256": "ccf6d2e85ee9c9cdfe77f8ef34d231b9bcf4071d97c168f222a4d40894cb0ba7",
+      "identity_master": false
+    },
+    {
+      "character_id": "yakuro",
+      "file": "v04.png",
+      "relative_path": "images/yakuro/v04.png",
+      "bytes": 2672024,
+      "sha256": "42167dc0634d8cc469ed0f67206104c533105e7c74ef4f503cbc0772480830c9",
+      "identity_master": false
+    },
+    {
+      "character_id": "yisunshin",
+      "file": "v01.png",
+      "relative_path": "images/yisunshin/v01.png",
+      "bytes": 2640498,
+      "sha256": "503fe8dc63ffc3bff4a18ed559e9b47851db4a3bbcb42af501ac6eeb69a596a5",
+      "identity_master": true
+    },
+    {
+      "character_id": "yoshihiro",
+      "file": "v01.png",
+      "relative_path": "images/yoshihiro/v01.png",
+      "bytes": 2431797,
+      "sha256": "4dc126644ad560cfa116e76a20cdc3d29f8f4f6e1cea42c5afa201b32d26aea5",
+      "identity_master": true
+    },
+    {
+      "character_id": "yoshitsugu",
+      "file": "v01.png",
+      "relative_path": "images/yoshitsugu/v01.png",
+      "bytes": 2614236,
+      "sha256": "453bd146016d0dda38accb17147dd642883e64c451befcf96475f47b19cd79c0",
+      "identity_master": true
+    }
+  ]
+}

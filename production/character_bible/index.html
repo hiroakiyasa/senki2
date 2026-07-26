@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>戦帰 SENKI 人物・年齢別ビジュアル台帳</title>
+<style>
+:root{--ink:#17130f;--paper:#f3ecd9;--paper2:#e6d7b7;--red:#b52c1e;--gold:#b88a38;--blue:#173b57;--cyan:#2e93a9;--line:rgba(23,19,15,.22);--shadow:0 18px 50px rgba(36,23,12,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(circle at 15% 5%,rgba(255,244,198,.92),transparent 34%),linear-gradient(135deg,#e8d7ad 0,#f5efdf 48%,#d9c399 100%);font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background-image:repeating-linear-gradient(0deg,transparent 0 4px,rgba(52,38,20,.035) 5px)}
+header{position:relative;overflow:hidden;padding:52px clamp(20px,6vw,90px) 42px;color:#fff;background:linear-gradient(115deg,rgba(14,23,28,.98),rgba(23,59,87,.96) 58%,rgba(92,34,23,.95));border-bottom:7px solid var(--gold)}header:after{content:"戦帰";position:absolute;right:-18px;top:-62px;font:900 clamp(150px,28vw,430px)/1 "Yu Mincho","Hiragino Mincho ProN",serif;color:rgba(255,255,255,.045);transform:rotate(-6deg)}.eyebrow{letter-spacing:.32em;color:#f0c873;font-weight:800}.hero-title{margin:.18em 0 0;font:900 clamp(36px,6vw,86px)/1 "Yu Mincho","Hiragino Mincho ProN",serif;letter-spacing:.04em}.hero-title span{color:#f0c873}.lede{position:relative;z-index:1;max-width:880px;font-size:15px;line-height:1.9;color:#d7e4e9}.wrap{width:min(1520px,calc(100% - 28px));margin:0 auto}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:-24px auto 28px;position:relative;z-index:2}.stat{background:rgba(255,252,241,.96);border:1px solid rgba(184,138,56,.45);box-shadow:var(--shadow);padding:18px 20px}.stat b{display:block;font:900 30px/1 "Yu Mincho",serif;color:var(--red)}.stat small{display:block;margin-top:7px;color:#655948;font-weight:700}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:26px 0 16px;padding:14px;background:rgba(255,252,241,.84);border:1px solid var(--line)}input,select,button{font:inherit}input,select{height:44px;border:1px solid #aa9670;background:#fffdf5;padding:0 14px;color:var(--ink)}input{min-width:min(360px,100%);flex:1}button{border:0;background:var(--ink);color:#fff;padding:11px 17px;cursor:pointer;font-weight:800}button:hover{background:var(--red)}.section-title{margin:45px 0 12px;font:900 clamp(26px,4vw,46px)/1.2 "Yu Mincho","Hiragino Mincho ProN",serif}.section-note{margin:0 0 18px;color:#645846;line-height:1.8}.table-shell{overflow:auto;max-height:74vh;background:#fffaf0;border:2px solid var(--ink);box-shadow:var(--shadow)}table{border-collapse:separate;border-spacing:0;min-width:1980px;width:100%;font-size:12px}th,td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:9px;vertical-align:top}thead th{position:sticky;top:0;z-index:4;background:#1d2d35;color:#fff;text-align:left;letter-spacing:.05em}th:first-child,td:first-child{position:sticky;left:0;z-index:3;width:238px;min-width:238px}thead th:first-child{z-index:6}tbody td:first-child{background:#f6eedb}.char-name{font:800 16px/1.3 "Yu Mincho",serif}.meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.tag{display:inline-block;padding:3px 6px;border:1px solid #b9a47b;background:#fff8e8;color:#5d4b31;font-size:10px}.role{margin-top:7px;color:#6d614e;line-height:1.45}.variant{min-height:88px;background:#fff;border-left:4px solid var(--gold);padding:7px;line-height:1.45}.variant.generated{border-left-color:var(--cyan);background:#edf9fa}.variant strong{display:block;color:var(--blue);font-size:12px}.variant img{display:block;width:100%;height:74px;object-fit:cover;margin-top:6px;border:2px solid var(--ink);cursor:zoom-in}.empty{color:#b4a58d;text-align:center;padding-top:28px}.count{font:900 22px/1 "Yu Mincho",serif;color:var(--red)}.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin:18px 0 70px}.card{background:rgba(255,252,241,.94);border:2px solid var(--ink);box-shadow:0 10px 30px rgba(34,24,13,.12);overflow:hidden}.card-head{display:flex;justify-content:space-between;gap:12px;align-items:start;padding:14px 16px;border-bottom:1px solid var(--line)}.card-head h3{margin:0;font:900 20px/1.2 "Yu Mincho",serif}.badge{white-space:nowrap;background:var(--red);color:#fff;padding:5px 8px;font-size:11px;font-weight:800}.thumbs{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:var(--ink)}.thumb{position:relative;aspect-ratio:3/2;background:#cbbd9d;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in}.thumb span{position:absolute;left:0;right:0;bottom:0;padding:18px 7px 6px;color:#fff;font-size:10px;font-weight:800;background:linear-gradient(transparent,rgba(0,0,0,.82))}.placeholder{min-height:160px;display:grid;place-items:center;padding:22px;text-align:center;color:#756955;background:repeating-linear-gradient(135deg,#f5eedc,#f5eedc 12px,#ebe0c6 12px,#ebe0c6 24px)}.spec{padding:13px 16px;color:#655a49;font-size:12px;line-height:1.7}.modal{display:none;position:fixed;inset:0;z-index:20;background:rgba(6,8,9,.93);padding:22px}.modal.open{display:grid;grid-template-rows:auto 1fr}.modal-bar{display:flex;justify-content:space-between;color:#fff;align-items:center}.modal img{max-width:96vw;max-height:88vh;margin:auto;object-fit:contain}.modal button{background:#fff;color:#111}.legend{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0}.dot{display:inline-flex;align-items:center;gap:6px}.dot:before{content:"";width:12px;height:12px;background:var(--gold)}.dot.done:before{background:var(--cyan)}footer{padding:30px;text-align:center;color:#5d5140;border-top:1px solid var(--line)}@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}header{padding-top:38px}.wrap{width:min(100% - 16px,1520px)}.gallery{grid-template-columns:1fr}}
+
+/* Character sheets must always be shown in full; never crop model-sheet edges. */
+img{object-fit:contain!important;object-position:center center!important;background:#f5f0e6}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">VISUAL PRODUCTION BIBLE</div><h1 class="hero-title">戦帰 <span>SENKI</span><br>人物・年齢別台帳</h1><p class="lede">正典上の記名人物を縦軸、外見を作り直す必要がある年齢・身分・負傷・武器状態を横軸に配置した制作マトリクス。年齢が変わっても同一人物に見えるための画像必要数を先に固定する。</p></header>
+<main class="wrap">
+<section class="stats"><div class="stat"><b id="charCount">0</b><small>記名人物</small></div><div class="stat"><b id="imageCount">0</b><small>必要設定画像</small></div><div class="stat"><b id="doneCount">0</b><small>生成済み</small></div><div class="stat"><b id="groupCount">0</b><small>人物系統</small></div></section>
+<div class="controls"><input id="search" placeholder="人物名・役割・年齢段階を検索"><select id="group"><option value="">すべての系統</option></select><select id="status"><option value="">生成状態: すべて</option><option value="done">生成済みあり</option><option value="todo">未生成のみ</option></select><button id="reset">条件を解除</button></div>
+<h2 class="section-title">年齢別・画像制作マトリクス</h2><p class="section-note">V1〜V7は同じ年齢幅ではなく、その人物の外見が変わる節目です。衣装だけの一時変装は別資産、年齢・体格・傷・身分・武器が変わる場合は新しい人物画像として数えます。</p><div class="legend"><span class="dot done">生成済み画像</span><span class="dot">生成予定</span></div>
+<div class="table-shell"><table><thead><tr><th>人物</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th><th>V6</th><th>V7</th><th>V8</th><th>必要数</th></tr></thead><tbody id="matrix"></tbody></table></div>
+<h2 class="section-title">キャラクター画像一覧</h2><p class="section-note">画像を押すと原寸に近い表示で確認できます。未生成人物は必要な年齢段階を先に表示しています。</p><section class="gallery" id="gallery"></section>
+</main>
+<div class="modal" id="modal"><div class="modal-bar"><strong id="modalTitle"></strong><button id="close">閉じる</button></div><img id="modalImg" alt=""></div>
+<footer>正典: docs/09_全キャラクター正典_v2.md / docs/06_武力と身分の成長.md / 第1巻完成稿</footer>
+<script>
+const V=(label,detail,image="")=>({label,detail,image});
+const C=(id,name,group,type,role,variants,spec="")=>({id,name,group,type,role,variants,spec});
+const chars=[
+C("matabei","後藤又兵衛／基次","中心人物・黒槍組","史実A・私生活C","主人公。小者から一万石城主を経て大坂五人衆へ",[
+V("16歳・村の少年","樫棒／ 破れのない農衣","images/matabei/01_age16_village.png"),V("18–21歳・若党","焼けた無銘槍／正式軽装","images/matabei/02_age18_21_young_retainer.png"),V("22–29歳・小頭","部分黒具足／補修槍","images/matabei/03_age22_29_unit_leader.png"),V("30–39歳・侍大将","上質黒具足／成熟黒槍","images/matabei/04_age30_39_samurai_commander.png"),V("40歳・関ヶ原","上級指揮具足／黒槍","images/matabei/05_age40_sekigahara.png"),V("41–46歳・一万石城主","金縁黒漆／絹威／陣羽織","images/matabei/06_age41_46_tenkoku_lord.png"),V("47–54歳・浪人","旧高級具足の残片／無紋旅装","images/matabei/07_age47_54_ronin_v2.png"),V("55歳・大坂五人衆","再構成上級具足／最終黒槍","images/matabei/08_age55_osaka.png")],"16歳の顔を絶対正本とする。全年齢で同じ大きな目、虹彩比率、目幅、短い鼻、口幅、尖った顎、顔輪郭を維持。加齢は目尻の細線、白髪率、姿勢だけ。左頬は一本線の切傷。装備は農衣→若党軽装→部分具足→侍大将黒具足→関ヶ原上級具足→一万石城主の金縁黒漆・絹威・陣羽織→浪人の旧装備残片→大坂の再構成上級具足。衣服は全て破れなし。"),
+C("nagamasa","松寿丸／黒田長政","中心人物・黒槍組","史実A","第二主人公。友・主君・最大の思想敵",[V("8歳・若君","橋砦／小袖"),V("11歳・人質","処刑危機／保護"),V("14–18歳・後継者","初陣前後"),V("19–31歳・若大将","九州・朝鮮"),V("32歳・関ヶ原","調略と軍団指揮"),V("33–47歳・藩主","福岡築城／成熟")]),
+C("kaya","百地カヤ","中心人物・黒槍組","創作C","伊賀の忍び、情報指揮官、伴侶",[V("14–16歳・伊賀少女","訓練装束"),V("17–22歳・敵忍び","潜入・短刀"),V("23–30歳・協力者","自選の装備"),V("31–40歳・情報指揮","薬・縄・偽書状"),V("40代後半・大坂","独立した支援者")]),
+C("genta","速水弦太","中心人物・黒槍組","創作C","兵站担当。少年から補給指揮官へ",[V("少年・食いしん坊","荷車と米"),V("青年・小隊兵站","帳面と算木"),V("若壮年・大軍補給","馬・薬・道"),V("壮年・朝鮮","補給線転換"),V("熟年・戦後流通","市場と仕事")]),
+C("seijuro","狭間清十郎","中心人物・黒槍組","創作C","地図、記録、帰名帳",[V("少年・記憶者","小帳面"),V("青年・地図役","測量具"),V("若壮年・記録官","帰名帳"),V("壮年・加害記録","疲労と葛藤"),V("熟年・戦史編纂","完成帳")]),
+C("jinroku","槙島甚六","中心人物・黒槍組","創作C","盾、規律、退路を担う現実派",[V("少年・盾役","木盾"),V("青年・規律役","列と荷縄"),V("壮年・脚負傷後","杖／門管理"),V("最終・城井事件","脇門／盾縁")]),
+C("yakuro","赤松弥九郎","中心人物・黒槍組","創作C","無所属の放浪槍、又兵衛の槍術ライバル",[V("青年・若党試験","無所属槍"),V("若壮年・最盛期","個人槍術"),V("壮年・離脱","城の犬と批判"),V("熟年・浪人再会","肩書なし")]),
+C("fujino","藤乃","中心人物・黒槍組","創作C","看護、遺族、帰還者の生活再建",[V("青年・看護役","薬籠"),V("壮年・共同炊事","仕事割振り"),V("熟年・生活再建","旧兵支援")]),
+C("matakichi","又吉","中心人物・黒槍組","創作C","旗、号令、伝令",[V("少年・大声","小旗"),V("青年・号令役","陣旗"),V("壮年・受領確認","指揮旗")]),
+C("kohei","小平","中心人物・黒槍組","創作C","俊足の伝令、斥候",[V("少年・俊足","軽装"),V("青年・斥候","伝令筒"),V("壮年・熟練伝令","受領札")]),
+C("shichiro","七郎","中心人物・黒槍組","創作C","舟、水路、渡河担当",[V("青年・舟子","櫂と縄"),V("壮年・渡河指揮","舟隊"),V("熟年・水路頭","指揮装備")]),
+C("sojuro","宗十郎","中心人物・黒槍組","創作C","鍛冶、工兵、武具修理",[V("青年・鍛冶見習","槌"),V("壮年・工兵頭","補修輪"),V("熟年・黒槍鍛冶","七輪完成")]),
+C("sayo","小夜","中心人物・黒槍組","創作C","又兵衛とカヤの娘",[V("幼女・父を待つ","家族衣装"),V("少女・大坂前","継承者視点")]),
+C("otsune","お常","第1巻・又兵衛家族","創作C","又兵衛の母。貧しい家を守る",[V("母・第1巻","粟粥／農家仕事"),V("晩年・回想","年老いた母")]),
+C("okiku","お菊","第1巻・又兵衛家族","創作C","又兵衛の妹",[V("幼女・第1巻","鍋蓋／赤小袖"),V("成人・後年","家族の記憶")]),
+C("shinzaemon","後藤新左衛門","第1巻・又兵衛家族","創作C","又兵衛の父、低身分の足軽",[V("青年・武名欲","無銘槍"),V("壮年・最期","焼け槍／負傷")]),
+C("genroku","橋砦の源六","第1巻・又兵衛家族","創作C","第1巻主敵、敗残兵頭領",[V("壮年・橋砦","赤布／十文字槍")]),
+C("kanbei","黒田官兵衛／孝高／如水","黒田家","史実A","軍略の師、長政の父",[V("30歳前後・姫路","若き軍師"),V("33歳・有岡幽閉","衰弱・負傷"),V("36–41歳・秀吉軍師","杖／戦装束"),V("54歳・関ヶ原","如水／剃髪"),V("58歳・晩年","病と遺言")]),
+C("mori","母里太兵衛","黒田家","史実A","黒田猛将、又兵衛の槍の師",[V("青年・槍武者","素槍"),V("壮年・師","黒田具足"),V("関ヶ原・猛将","大杯逸話期"),V("晩年・古参","後進を見る")]),
+C("kuriyama","栗山善助","黒田家","史実A","古参、規律と忠義",[V("青年・家臣","実務装束"),V("壮年・官兵衛救出","救出装備"),V("関ヶ原・古参","黒田具足"),V("晩年・家老","礼装")]),
+C("inoue","井上九郎右衛門","黒田家","史実A","行政、文書、交渉",[V("青年・文官武士","書状"),V("壮年・調整役","陣中文書"),V("関ヶ原・行政","具足と書付"),V("晩年・家老","福岡礼装")]),
+C("suzu","スズ","伊賀・雑賀・文化圏","創作C","カヤの妹、敵側忍び",[V("少女・伊賀訓練","姉との対比"),V("青年・敵忍び","無感情装束"),V("壮年・離脱選択","無所属"),V("大坂前・警告者","隠密旅装")]),
+C("karasumaru","鴉丸／伊賀の組織者","伊賀・雑賀・文化圏","創作C","人間を役割へ変える統括者",[V("青年・現場統括","忍び装束"),V("壮年・組織者","文書・仮面"),V("熟年・最終局面","老獪な統括")]),
+C("ayame","雑賀アヤメ","伊賀・雑賀・文化圏","創作C","雑賀八郷女頭領、鉄砲・港・自治",[V("少女・雑賀育ち","火縄銃"),V("青年・女頭領","港装束"),V("壮年・関ヶ原","鉄砲衆指揮"),V("熟年・大坂","船と情報")]),
+C("towa","水城トワ","伊賀・雑賀・文化圏","創作C","茶、香、贈答、噂の女性外交人",[V("青年・茶会登場","小袖・香"),V("壮年・外交人","格式装束"),V("熟年・天下の席順","完成礼装")]),
+C("rikyu","千宗易／千利休","伊賀・雑賀・文化圏","史実A","茶室で人間を動かす強者",[V("壮年・宗易","堺商人"),V("熟年・利休","黒楽と茶衣"),V("晩年・最期","簡素な黒衣")]),
+C("hanbei","竹中半兵衛","天下人・政治人物","史実A","軍師、松寿丸を守る",[V("青年・軍師","病前"),V("晩年・病身","松寿丸保護")]),
+C("nobunaga","織田信長","天下人・政治人物","史実A","身分・商業・軍事を作り替える覇者",[V("壮年・安土以前","戦装束"),V("48歳・安土／本能寺","天下布武期")]),
+C("hideyoshi","羽柴秀吉／豊臣秀吉","天下人・政治人物","史実A","低身分から天下人となる成功者",[V("30代・羽柴武将","軽快な具足"),V("40代・中国攻め","総大将"),V("50代・関白","華美礼装"),V("50代後半・朝鮮役","黄金と疑念"),V("61歳・晩年","老天下人")]),
+C("ieyasu","徳川家康","天下人・政治人物","史実A","戦国を制度へ変える最終思想敵",[V("30代・同盟大名","若き家康"),V("39歳・本能寺後","伊賀越え期"),V("44歳・小牧","軍略家"),V("57歳・関ヶ原","内府"),V("72歳・大坂","大御所")]),
+C("masamune","伊達政宗","天下人・政治人物","史実A","遅れて天下へ来た若き大名",[V("少年・独眼前後","若君"),V("青年・奥州覇者","黒具足"),V("壮年・大坂期","外交大名")]),
+C("murashige","荒木村重","主要敵・ライバル","史実A","有岡城主、反乱者",[V("壮年・有岡城主","重厚具足"),V("逃亡期・反乱者","変装旅装"),V("晩年・道薫","茶人姿")]),
+C("muneharu","清水宗治","主要敵・ライバル","史実A","高松城主、自己犠牲の危険な答え",[V("壮年・城主","毛利方具足"),V("最期・水上自刃","白装束")]),
+C("takakage","小早川隆景","主要敵・ライバル","史実A","毛利の知将、官兵衛の軍略敵",[V("青年・毛利知将","陣装束"),V("壮年・高松和睦","交渉装束"),V("晩年・五大老","老将礼装")]),
+C("motoharu","吉川元春","主要敵・ライバル","史実A","毛利の武の柱",[V("壮年・猛将","重具足"),V("晩年・毛利宿老","老武者")]),
+C("takatora","藤堂高虎","主要敵・ライバル","史実A","築城、工程、撤退、転身",[V("青年・仕官転々","軽装"),V("壮年・築城家","測量具"),V("関ヶ原・大名","具足"),V("大坂・老将","徳川方")]),
+C("mitsunari","石田三成","主要敵・ライバル","史実A","最大の知略・政治ライバル",[V("青年・奉行見習","帳面"),V("壮年・兵站奉行","算木・書状"),V("40歳・関ヶ原","西軍総帥"),V("最期・捕縛後","簡素な衣")]),
+C("kiyomasa","加藤清正","主要敵・ライバル","史実A","城と攻撃の同世代ライバル",[V("青年・七本槍","若武者"),V("壮年・築城家","虎退治期具足"),V("朝鮮・攻城将","海外装備"),V("晩年・熊本大名","礼装")]),
+C("masanori","福島正則","主要敵・ライバル","史実A","武断派、七本槍の武名",[V("青年・七本槍","突撃装備"),V("壮年・武断大名","豪胆具足"),V("関ヶ原・東軍","大将装備"),V("晩年・改易後","老武者")]),
+C("iehisashimazu","島津家久","主要敵・ライバル","史実A","九州編最大の軍略敵",[V("青年・軍略家","島津具足"),V("壮年・沖田畷期","指揮装備")]),
+C("yoshihiro","島津義弘","主要敵・ライバル","史実A","実戦と退却判断の頂点",[V("青年・島津武将","若具足"),V("壮年・九州戦","熟練将"),V("65歳・関ヶ原","島津退き口"),V("晩年・老将","隠居姿")]),
+C("toyohisa","島津豊久","主要敵・ライバル","史実A","又兵衛の暗い鏡、殿の若武者",[V("少年・名を欲す","若武者"),V("青年・九州","島津具足"),V("30歳・関ヶ原","殿の最終装備")]),
+C("shinpachiro","島津新八郎","主要敵・ライバル","創作C","敵、共闘、再び敵となる若武者",[V("青年・九州の敵","島津軽装"),V("壮年・朝鮮共闘","海外装備"),V("関ヶ原・暗号矢","島津本装備")]),
+C("muneshige","立花宗茂","主要敵・ライバル","史実A","総合型ライバル、生きて責任を負う",[V("少年・立花養子","若君"),V("青年・九州","雷切継承期"),V("壮年・関ヶ原","柳川大名"),V("熟年・復帰大名","再興後")]),
+C("ginchiyo","立花誾千代","主要敵・ライバル","史実A","立花の正統性と領民を守る女性武将",[V("少女・城督","若き当主"),V("青年・女武将","鉄砲隊"),V("壮年・別居期","領民統率")]),
+C("tadakatsu","本多忠勝","主要敵・ライバル","史実A","又兵衛が追う個人武の頂点",[V("青年・徳川槍","蜻蛉切"),V("壮年・小牧","黒具足"),V("52歳・関ヶ原","老練猛将"),V("晩年・隠居","傷なき老将")]),
+C("naomasa","井伊直政","主要敵・ライバル","史実A","規律で弱者を強くする徳川猛将",[V("青年・赤備え前","若武者"),V("壮年・赤備え","軍団長"),V("39歳・関ヶ原","負傷した最終期")]),
+C("yoshitsugu","大谷吉継","主要敵・ライバル","史実A","三成の友、友情と責任で西軍へ",[V("青年・奉行","素顔期"),V("壮年・病進行","白頭巾"),V("関ヶ原・最期","輿／西軍装備")]),
+C("sakon","島左近","主要敵・ライバル","史実A/B","三成の制度を戦場へ変える前線将",[V("壮年・歴戦将","槍と具足"),V("関ヶ原・最終","西軍前線")]),
+C("hideaki","小早川秀秋","主要敵・ライバル","史実A","帰る場所を選べなかった若大名",[V("少年・政治養子","若君礼装"),V("19歳・関ヶ原","迷う大名")]),
+C("gracia","細川ガラシャ","主要敵・ライバル","史実A","政治的人質とされた女性、信仰者",[V("少女・明智珠","武家娘"),V("青年・細川夫人","キリシタン"),V("37歳・最期","幽閉屋敷")]),
+C("shigefusa","城井鎮房","主要敵・ライバル","史実A","豊前在地領主、土地を守る",[V("壮年・在地領主","山城具足"),V("最期・城井事件","礼装と警戒")]),
+C("kahee","嘉兵衛","主要敵・ライバル","創作C","弱い者を先に捨てる救命指揮官",[V("青年・全滅経験前","足軽頭"),V("壮年・第14巻","選別指揮官")]),
+C("yisunshin","李舜臣","朝鮮・明編","史実A","朝鮮水軍の将、海上補給を断つ敵",[V("壮年・水軍将","朝鮮軍装"),V("晩年・露梁","最終指揮装備")]),
+C("hajun","ユン・ハジュン","朝鮮・明編","創作C","朝鮮人通訳、斥候",[V("青年・敵対時","村の斥候"),V("壮年・避難協力","通訳装備")]),
+C("xuehua","林雪華","朝鮮・明編","創作C","明軍側の女性医師",[V("青年・従軍医","明の医療衣"),V("壮年・敵味方治療","薬箱")]),
+C("hanjun","韓俊","朝鮮・明編","創作C","朝鮮側の若い斥候",[V("少年・村の喪失","民衣"),V("青年・斥候","朝鮮軍装")]),
+C("masayuki","真田昌幸","関ヶ原・大坂","史実A","上田で徳川軍を遅らせる老獪な軍略家",[V("壮年・武田旧臣","赤備え系譜"),V("53歳・上田","軍略家"),V("晩年・九度山","配流姿")]),
+C("nobushige","真田信繁／幸村","関ヶ原・大坂","史実A/B","大坂五人衆、築城・軍略ライバル",[V("青年・第一次上田","若武者"),V("33歳・関ヶ原","西軍"),V("壮年・九度山","浪人"),V("48歳・大坂","赤備え最終")]),
+C("katsunaga","毛利勝永","関ヶ原・大坂","史実A","大坂五人衆、浪人軍を再編する攻勢将",[V("青年・関ヶ原","西軍武将"),V("37歳・大坂","五人衆")]),
+C("morichika","長宗我部盛親","関ヶ原・大坂","史実A","大坂五人衆、兄の死で家を背負う",[V("青年・土佐後継","大名具足"),V("40歳・大坂","浪人将")]),
+C("teruzumi","明石全登","関ヶ原・大坂","史実A","大坂五人衆、キリシタン武将",[V("壮年・宇喜多家","騎馬武将"),V("大坂・五人衆","信仰意匠")]),
+C("katsushige","水野勝成","関ヶ原・大坂","史実A","放浪と仕官を繰り返した武将",[V("青年・放浪武者","荒武者"),V("壮年・徳川将","関ヶ原期"),V("熟年・大坂","別の浪人人生")]),
+C("shokichi","庄吉","庶民・戦後生活","創作C","又兵衛を憎み、逃げられる橋を作る少年",[V("少年・第14巻","避難民"),V("青年・橋普請","大工装束")])
+];
+const generatedCounts={nagamasa:6,kaya:5,genta:5,seijuro:4,jinroku:4,yakuro:4,fujino:3,matakichi:1,kohei:1,shichiro:1,sojuro:1,sayo:1,otsune:1,okiku:1,shinzaemon:1,genroku:1,kanbei:1,mori:1,kuriyama:1,inoue:1,suzu:1,karasumaru:1,ayame:1,towa:1,rikyu:1,hanbei:1,nobunaga:1,hideyoshi:1,ieyasu:1,masamune:1,murashige:1,muneharu:1,takakage:1,motoharu:1,takatora:1,mitsunari:1,kiyomasa:1,masanori:1,iehisashimazu:1,yoshihiro:1,toyohisa:1,shinpachiro:1,muneshige:1,ginchiyo:1,tadakatsu:1,naomasa:1,yoshitsugu:1,sakon:1,hideaki:1,gracia:1,shigefusa:1,kahee:1,yisunshin:1,hajun:1,xuehua:1,hanjun:1,masayuki:1,nobushige:1,katsunaga:1,morichika:1,teruzumi:1,katsushige:1,shokichi:1};
+chars.forEach(c=>{if(c.id==='matabei')return;const n=generatedCounts[c.id]||0;c.variants.forEach((v,i)=>{if(i<n)v.image=`images/${c.id}/v${String(i+1).padStart(2,'0')}.png`;});});
+
+const matrix=document.getElementById("matrix"),gallery=document.getElementById("gallery"),search=document.getElementById("search"),group=document.getElementById("group"),status=document.getElementById("status");
+const groups=[...new Set(chars.map(c=>c.group))];groups.forEach(g=>group.insertAdjacentHTML("beforeend",`<option>${g}</option>`));
+const esc=s=>String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+function filtered(){const q=search.value.trim().toLowerCase();return chars.filter(c=>{const hay=[c.name,c.group,c.type,c.role,c.spec,...c.variants.flatMap(v=>[v.label,v.detail])].join(" ").toLowerCase();const state=c.variants.some(v=>v.image);return(!q||hay.includes(q))&&(!group.value||c.group===group.value)&&(!status.value||(status.value==="done"?state:!state));});}
+function render(){const list=filtered();matrix.innerHTML=list.map(c=>`<tr><td><div class="char-name">${esc(c.name)}</div><div class="meta"><span class="tag">${esc(c.group)}</span><span class="tag">${esc(c.type)}</span></div><div class="role">${esc(c.role)}</div></td>${Array.from({length:8},(_,i)=>{const v=c.variants[i];return `<td>${v?`<div class="variant ${v.image?"generated":""}"><strong>${esc(v.label)}</strong>${esc(v.detail)}${v.image?`<img src="${v.image}" data-title="${esc(c.name+" / "+v.label)}" alt="">`:""}</div>`:`<div class="empty">—</div>`}</td>`}).join("")}<td><span class="count">${c.variants.length}</span><br>画像</td></tr>`).join("");
+gallery.innerHTML=list.map(c=>{const imgs=c.variants.filter(v=>v.image);return `<article class="card"><div class="card-head"><h3>${esc(c.name)}</h3><span class="badge">${imgs.length}/${c.variants.length} 生成</span></div>${imgs.length?`<div class="thumbs">${imgs.map(v=>`<div class="thumb"><img src="${v.image}" data-title="${esc(c.name+" / "+v.label)}" alt=""><span>${esc(v.label)}</span></div>`).join("")}</div>`:`<div class="placeholder">必要画像 ${c.variants.length}種類<br>${c.variants.map(v=>esc(v.label)).join(" / ")}</div>`}<div class="spec">${esc(c.spec||c.role)}</div></article>`}).join("");document.querySelectorAll("img[data-title]").forEach(img=>img.onclick=()=>openModal(img));}
+function openModal(img){document.getElementById("modalImg").src=img.src;document.getElementById("modalTitle").textContent=img.dataset.title;document.getElementById("modal").classList.add("open")}
+document.getElementById("close").onclick=()=>document.getElementById("modal").classList.remove("open");document.getElementById("modal").onclick=e=>{if(e.target.id==="modal")e.currentTarget.classList.remove("open")};[search,group,status].forEach(x=>x.addEventListener("input",render));document.getElementById("reset").onclick=()=>{search.value="";group.value="";status.value="";render()};
+document.getElementById("charCount").textContent=chars.length;document.getElementById("imageCount").textContent=chars.reduce((n,c)=>n+c.variants.length,0);document.getElementById("doneCount").textContent=chars.reduce((n,c)=>n+c.variants.filter(v=>v.image).length,0);document.getElementById("groupCount").textContent=groups.length;render();
+</script>
+<a href="world_assets.html" style="position:fixed;right:18px;bottom:18px;z-index:99;padding:12px 18px;background:#221b13;color:#f6d98b;border:2px solid #a97b2d;text-decoration:none;font-weight:800;box-shadow:5px 5px 0 #9f2f23">世界・小道具資産台帳 →</a>
+</body>
+</html>

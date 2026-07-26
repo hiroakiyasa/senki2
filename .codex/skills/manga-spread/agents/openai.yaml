@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manga Spread"
+  short_description: "見開き生成・分割・正典写植・QA・HTML編集を一括制作"
+  default_prompt: "Use $manga-spread to prepare or generate the next two-page SENKI spread, split and typeset it, require structural and visual QA, and open it in the editor."
